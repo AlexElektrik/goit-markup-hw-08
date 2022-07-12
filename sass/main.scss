@@ -1,0 +1,27 @@
+@import "./base/normalize";
+@import "./base/reset";
+
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+@import "./layot/container";
+@import "./layot/hero";
+@import "./layot/header";
+@import "./layot/about";
+@import "./layot/gallery";
+@import "./layot/clients";
+@import "./layot/backdrop-modal";
+@import "./layot/modal-form";
+@import "./layot/portfolio";
+
+@import "./componets/logo";
+@import "./componets/nav";
+@import "./componets/current";
+@import "./componets/contackt";
+@import "./componets/_icon-about";
+@import "./componets/icons-social";
+@import "./componets/team";
+@import "./componets/contackt-footer";
+@import "./componets/icon-social-footer";
+@import "./componets/form-footer";
+@import "./componets/portfolio_button";

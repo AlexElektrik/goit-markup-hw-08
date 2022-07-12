@@ -1,0 +1,41 @@
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.client__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.19;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #212121;
+}
+
+.clients-icon__link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+}
+
+.client-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-icon__svg {
+  fill: currentColor;
+}

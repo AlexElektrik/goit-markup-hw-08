@@ -1,0 +1,21 @@
+.about__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-pre);
+  margin-bottom: 10px;
+  max-width: 270px;
+}
+
+.text {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.71;
+  max-width: 270px;
+}
