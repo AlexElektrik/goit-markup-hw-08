@@ -3,8 +3,10 @@
 
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+@import "./utils/mixsins";
+    
 
-@import "./layot/container";
+@import "./layot/container"; 
 @import "./layot/hero";
 @import "./layot/header";
 @import "./layot/about";
@@ -15,9 +17,7 @@
 @import "./layot/portfolio";
 
 @import "./componets/logo";
-@import "./componets/nav";
 @import "./componets/current";
-@import "./componets/contackt";
 @import "./componets/_icon-about";
 @import "./componets/icons-social";
 @import "./componets/team";
