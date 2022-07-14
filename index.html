@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!-- <header class="header">
+     <!-- <header class="header">
       <div class="container">
         <nav class="nav">
           <a class="logo" href="./index.html"
@@ -56,7 +56,7 @@
           </li>
         </ul>
       </div>
-    </header> -->
+    </header>  -->
     <main>
       <section class="hero">
         <div class="container">
@@ -66,11 +66,11 @@
           </button>
         </div>
       </section>
-      <!-- <section class="about section">
+       <section class="about section">
         <div class="container">
           <h2 class="visually-hidden">особенности</h2>
           <ul class="about__list list">
-            <li>
+            <li class="about__item">
               <div class="about__icon">
                 <svg width="70px" height="70px">
                   <use href="./images/SVG/icon.svg#icon-antenna"></use>
@@ -82,7 +82,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="about__item">
               <div class="about__icon">
                 <svg class="" width="70px" height="70px">
                   <use href="./images/SVG/icon.svg#icon-clock"></use>
@@ -94,7 +94,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="about__item"> 
               <div class="about__icon">
                 <svg width="70px" height="70px">
                   <use href="./images/SVG/icon.svg#icon-diagram"></use>
@@ -106,7 +106,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="about__item">
               <div class="about__icon">
                 <svg width="70px" height="70px">
                   <use href="./images/SVG/icon.svg#icon-astronaut"></use>
@@ -161,8 +161,8 @@
       <section class="developer section">
         <div class="container">
           <h2 class="developer__title">Наша команда</h2>
-          <ul class="team-list list">
-            <li class="team-list__item">
+          <ul class="developer-list list">
+            <li class="developer-list__item">
               <img
                 src="./images/team/product_designer.jpg"
                 alt="портрет"
@@ -205,7 +205,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list__item">
+            <li class="developer-list__item">
               <img
                 src="./images/team/frontend_developer.jpg"
                 alt="портрет"
@@ -248,7 +248,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list__item">
+            <li class="developer-list__item">
               <img
                 src="./images/team/marketing.jpg"
                 alt="портрет"
@@ -289,7 +289,7 @@
                 </ul>
               </div>
             </li>
-            <li class="team-list__item">
+            <li class="developer-list__item">
               <img
                 src="./images/team/ui_designer.jpg"
                 alt="портрет"
@@ -335,11 +335,11 @@
           </ul>
         </div>
       </section>
-      <section class="clients">
+      <section class="clients section">
         <div class="container">
           <h2 class="client__title">Постоянные клиенты</h2>
           <ul class="client-icon list">
-            <li class="clients-icon__item">
+            <li class="client-icon__item">
               <a href="" class="clients-icon__link">
                 <svg class="clients-icon__svg" width="106px" height="60px">
                   <use href="./images/SVG/icon.svg#icon-ya--co"></use>
@@ -383,33 +383,26 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
-        <div class="address-container">
-          <a class="logo" href="./index.html"
-            ><span class="logo__web">Web</span
-            ><span class="logo__studio--footer">Studio</span></a
-          >
+          <div class="address-container">
+          <a class="logo" href="./index.html">
+            <span class="logo__web">Web</span><span
+              class="logo__studio--footer">Studio</span></a>
           <address class="address">
             <ul class="list">
               <li class="addres__item">
-                <a
-                  class="address__footer"
-                  href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwiqrJX89On3AhVQoI4IHcCcBigQ8gF6BAgMEAE"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
+                <a class="address__footer"
+                  href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwiqrJX89On3AhVQoI4IHcCcBigQ8gF6BAgMEAE">г.
+                  Киев, пр-т Леси Украинки, 26</a>
               </li>
               <li class="addres__item">
-                <a class="contack-footter" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="contack-footter" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
-              <li class="addres-item">
-                <a class="contack-footter" href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
+              <li class="addres__item">
+                <a class="contack-footter" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -451,7 +444,7 @@
           <form>
             <h2 class="form-subscribe__title">Подпишитесь на рассылку</h2>
             <div class="form-subscribe__container">
-              <label>
+              <label class="form-subscribe-label">
                 <input
                   class="form-subscribe-fild"
                   type="email"
@@ -471,7 +464,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer> 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="button-close" type="button" data-modal-close>
@@ -517,7 +510,6 @@
           <div class="modal-form-textarea">
             <label class="modal-lable">
               <span class="modal-lable-text">Комментарий</span>
-
               <textarea
                 class="modal-textarea"
                 name="comment"

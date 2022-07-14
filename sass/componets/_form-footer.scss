@@ -1,39 +1,81 @@
 .form-subscribe {
+
+  @include desktop{
   padding-top: 12px;
   margin-left: 93px;
+  }
+
 }
 
 .form-subscribe__title {
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
+
+    @include desktop{
+      display: block; 
+  }
+
 }
 
 .form-subscribe__container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+   
+    @include desktop{
+      flex-direction: row;
+    }
+
+}
+
+.form-subscribe-label{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  @include desktop {
+      display: block;
+      width: 370px;
+    }
 }
 
 .form-subscribe-fild {
   color: #ffffff;
   padding: 15px 16px;
-  margin-right: 12px;
-  width: 358px;
+  width: 100%;
+  max-width: 450px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   outline: transparent;
-  &:focus {
-  border-color: var(--color-accent);
-}
-}
+  margin-bottom: 20px;
+    &:focus {
+    border-color: var(--color-accent);
+  }
 
+    @include tablet {
+      width: 450px;
+    }
 
+     @include desktop{
+       width: 358px;
+       margin-bottom: 0;
+       margin-right: 12px;
+   } 
+   
+}
 
 .form-subscribe__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -41,9 +83,6 @@
   line-height: 1.88;
   width: 200px;
   height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--color-accent);

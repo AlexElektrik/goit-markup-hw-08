@@ -4,9 +4,8 @@
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 @import "./utils/mixsins";
-    
 
-@import "./layot/container"; 
+@import "./layot/container";
 @import "./layot/hero";
 @import "./layot/header";
 @import "./layot/about";
@@ -15,13 +14,15 @@
 @import "./layot/backdrop-modal";
 @import "./layot/modal-form";
 @import "./layot/portfolio";
+@import "./layot/developers";
+@import "./layot/footer";
 
 @import "./componets/logo";
+@import "./componets/nav";
 @import "./componets/current";
-@import "./componets/_icon-about";
+@import "./componets/contackt";
+@import "./componets/icon-about";
 @import "./componets/icons-social";
-@import "./componets/team";
-@import "./componets/contackt-footer";
 @import "./componets/icon-social-footer";
 @import "./componets/form-footer";
 @import "./componets/portfolio_button";

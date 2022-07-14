@@ -1,6 +1,19 @@
 .about__list {
   display: flex;
+  flex-wrap: wrap;
+    gap: 30px;
   justify-content: space-between;
+}
+
+.about__item{
+width: 100%;
+  @include tablet {
+      width: calc((100%  - 30px)/2);
+    }
+  
+    @include desktop {
+      width: calc((100% - 90px)/4);
+    }
 }
 
 .about__title {
@@ -10,12 +23,13 @@
   text-transform: uppercase;
   color: var(--color-pre);
   margin-bottom: 10px;
-  max-width: 270px;
+
+
 }
 
 .text {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
-  max-width: 270px;
 }
+
