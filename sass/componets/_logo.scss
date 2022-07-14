@@ -1,10 +1,16 @@
 .logo {
   font-family: "Releway", sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   text-decoration: none;
   word-spacing: 0;
+  margin-right: 88px;
+  @include desktop{
+    margin-right: 93px;
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .logo__web {
@@ -13,9 +19,8 @@
 
 .logo__studio--header {
   color: var(--color-pre);
-  margin-right: 93px;
-}
 
+}
 
 
 .logo__studio--footer {

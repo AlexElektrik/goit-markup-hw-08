@@ -33,12 +33,13 @@
         flex-direction: row;
     }
 
-}
+}w
 
 
 .footer .logo {
     display: flex;
     justify-content: center;
+    margin-right: 0;
     margin-bottom: 20px;
 
     @include desktop{
@@ -77,18 +78,21 @@
 
 }
 
+.addres__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 .addres__item {
     display: flex;
     justify-content: center;
-
     @include desktop {
         display: block;
-
-        &:not(:last-child) {
-            margin-bottom: 9px;
-        }
     }
 
+}
+
+.addres__item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .contack-footter {
@@ -107,10 +111,8 @@
 
 .icon-social-footer {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     margin-bottom: 60px;
-
       @include desktop{
         display: block;
         margin-top: 15px;
@@ -129,6 +131,7 @@
     color: #ffffff;
     margin: 0 auto;
     margin-bottom: 20px;
+   
 
 }
 
