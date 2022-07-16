@@ -23,14 +23,14 @@
           </a>
           <ul class="nav-list list">
             <li class="nav-list__item">
-              <a class="nav-list__link" href="./index.html">Студия</a>
-            </li>
-            <li class="nav-list__item">
               <a
                 class="nav-list__link nav-item__link--current"
-                href="./portfolio.html"
-                >Портфолио</a
-              >
+                href="./index.html"
+                >Студия
+              </a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="./portfolio.html">Портфолио</a>
             </li>
             <li class="nav-list__item">
               <a class="nav-list__link" href=""> Контакты</a>
@@ -48,7 +48,7 @@
           </li>
           <li class="contackt__item">
             <a class="contackt__link" href="tel:+380961111111">
-              <svg class="contackt__icon" width="10" height="16">
+              <svg class="contackt__icon" width="10">
                 <use href="./images/SVG/icon.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -60,23 +60,21 @@
             <use href="./images/SVG/icon.svg#icon-menu"></use>
           </svg>
         </button>
-        <div class="mob-menu">
+        <div class="mob-menu is-hidden">
+          <button class="mob-button-close" type="button">
+            <svg class="mob-button-close__icon" width="18px" height="18px">
+              <use href="./images/SVG/icon.svg#icon-close"></use>
+            </svg>
+          </button>
           <nav class="mob-nav">
-            <button class="mob-button-close" type="button" data-modal-close>
-              <svg class="mob-button-close__icon" width="18px" height="18px">
-                <use href="./images/SVG/icon.svg#icon-close"></use>
-              </svg>
-            </button>
             <ul class="mob-nav-list list">
+              <li class="mob-nav-list__item">
+                <a class="mob-nav-list__link" href="./index.html">Студия </a>
+              </li>
               <li class="mob-nav-list__item">
                 <a
                   class="mob-nav-list__link mob-nav-item__link--current"
-                  href="./index.html"
-                  >Студия
-                </a>
-              </li>
-              <li class="mob-nav-list__item">
-                <a class="mob-nav-list__link" href="./portfolio.html"
+                  href="./portfolio.html"
                   >Портфолио</a
                 >
               </li>
