@@ -4,52 +4,58 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero_mob.jpg);
-       
-        @media  (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) 
-        {background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), url(../images/hero_mobx2.jpg);
-        };
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero_mobx2.jpg);
+  }
   padding-top: 118px;
   padding-bottom: 118px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   margin: 0 auto;
-  @include mobile {
-      max-width: 480px;
-    }
+  max-width: 480px;
+
   @include tablet {
-      max-width: 768px;
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-              rgba(47, 48, 58, 0.4)),
-            url(../images/hero_tab.jpg);
-     @include retina
-     {
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)),
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero_tab.jpg);
+    @include retina {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
         url(../images/hero_tabx2.jpg);
-     }
+    }
   }
 
-     @include desktop {
-      max-width: 1600px;
-        padding-top: 200px;
-        padding-bottom: 200px;
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)),
+  @include desktop {
+    max-width: 1600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
       url(../images/hero.jpg);
-       @include retina {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)),
-          url(../images/herox2.jpg);
-            }
-     
- }
-} 
-
+    @include retina {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/herox2.jpg);
+    }
+  }
+}
 
 .hero__title {
   font-weight: 900;
@@ -57,16 +63,15 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-size: 26px;
-    line-height: 1.61;
+  line-height: 1.61;
   color: #ffffff;
   max-width: 360px;
-  margin: 0 auto 30px;    
-    @include desktop {
-      max-width: 696px;
-      font-size: 44px;
-      line-height: 1.36;
-    }
-
+  margin: 0 auto 30px;
+  @include desktop {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .hero__button {

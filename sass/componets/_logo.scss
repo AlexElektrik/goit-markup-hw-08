@@ -6,7 +6,8 @@
   text-decoration: none;
   word-spacing: 0;
   margin-right: 88px;
-  @include desktop{
+
+  @include desktop {
     margin-right: 93px;
     font-size: 26px;
     line-height: 1.19;
@@ -19,9 +20,7 @@
 
 .logo__studio--header {
   color: var(--color-pre);
-
 }
-
 
 .logo__studio--footer {
   color: #ffffff;
