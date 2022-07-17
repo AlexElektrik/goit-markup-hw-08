@@ -1,22 +1,24 @@
 .about__list {
   display: flex;
   flex-wrap: wrap;
-    gap: 30px;
+  gap: 30px;
   justify-content: space-between;
 }
 
-.about__item{
-width: 100%;
+.about__item {
+  width: 100%;
   @include tablet {
-      width: calc((100%  - 30px)/2);
-    }
-  
-    @include desktop {
-      width: calc((100% - 90px)/4);
-    }
+    width: calc((100% - 30px) / 2);
+  }
+
+  @include desktop {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .about__title {
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -24,7 +26,13 @@ width: 100%;
   color: var(--color-pre);
   margin-bottom: 10px;
 
+  @include tablet {
+    display: block;
+  }
 
+  @include desktop {
+    display: block;
+  }
 }
 
 .text {
@@ -32,4 +40,3 @@ width: 100%;
   font-size: 14px;
   line-height: 1.71;
 }
-
